@@ -2,7 +2,7 @@ import request from '../../utils/request';
 
 const PAGE_SIZE = 10
 
-const URL = "http://192.168.253.105:3000"
+const URL = ""
 
 export function fetch_list({ parent_id=0 }){
 	return request(URL+`/api/disk/fetch_list?parent_id=${parent_id}`);
