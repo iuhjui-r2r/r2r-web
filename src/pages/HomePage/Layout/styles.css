@@ -1,0 +1,43 @@
+.all {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    height: 62px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4E97FF;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.main {
+    height: calc(100% - 62px  );
+}
+
+.side {
+    height: 100%;
+}
+
+.content{
+    height: 100%;
+}
+
+
+.render {
+	 width: calc(100% - 10px);
+    height: 100%;
+    background: #fff;
+    border: 1px solid #d8dfea;
+    border-radius: 10px;
+}
+
+
+

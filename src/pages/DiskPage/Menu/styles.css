@@ -1,0 +1,15 @@
+.menu{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+
+.item{
+	display:inline-block;
+	margin-right:10px;
+}
+
+.text{
+	display:inline;
+	margin-left:3px
+}

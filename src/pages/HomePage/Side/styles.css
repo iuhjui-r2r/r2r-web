@@ -1,0 +1,33 @@
+.side {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.side > li {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    font-size: 0px;
+}
+
+.side > li:hover {
+    background: #E4E9EC;
+    color: #2db7f5;
+}
+
+.active {
+    background: #E4E9EC;
+    color: #2db7f5;
+}
+
+.left{
+    display: inline-block;
+    font-size: 16px;
+    width: 40px;
+}
+
+.right{
+    display: inline-block;
+    font-size: 16px;
+}

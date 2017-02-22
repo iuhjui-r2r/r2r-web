@@ -1,0 +1,111 @@
+.file {
+	margin-top: 20px;
+    width: 122px;
+    height: 129px;
+    display: inline-block;
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.file:hover {
+    background-color: #f1f5fa;
+    border-radius: 5px;
+}
+
+.active {
+	background-color: #f1f5fa;
+    border: 1px solid #90c3fd;
+    border-radius: 5px;
+}
+
+.checkbox {
+	font-family:"iconfont";
+	font-size:16px;
+	color:#3b8cff;
+	position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+}
+
+.checkbox:before {
+	content: "\e608";
+}
+
+
+.file  .checkbox {
+	display:none;
+}
+
+.file:hover  .checkbox {
+	display:block;
+	opacity:0.5;
+}
+
+.file.active  .checkbox {
+	display:block;
+	opacity:1;
+}
+
+
+
+.text {
+    margin-top: 12px;
+	font-family:"微软雅黑";
+	font-size:12px;
+}
+
+.icon_file{
+    width: 64px;
+    height: 64px;
+    background: url("../../../../assets/images/zip-64.png")  no-repeat center ;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.icon_folder{
+    width: 64px;
+    height: 64px;
+    background: url("../../../../assets/images/folder-64.png")  no-repeat center ;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.icon_zip{
+    width: 64px;
+    height: 64px;
+    background: url("../../../../assets/images/zip-64.png")  no-repeat center ;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.icon_css{
+    width: 64px;
+    height: 64px;
+    background: url("../../../../assets/images/css-64.png")  no-repeat center ;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.icon_js{
+    width: 64px;
+    height: 64px;
+    background: url("../../../../assets/images/js-64.png")  no-repeat center ;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.icon_psd{
+    width: 64px;
+    height: 64px;
+    background: url("../../../../assets/images/psd-64.png")  no-repeat center ;
+    display: inline-block;
+    margin-top: 20px;
+}
+

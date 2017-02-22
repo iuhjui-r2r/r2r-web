@@ -1,0 +1,22 @@
+.path{
+	padding-left: 15px;
+}
+
+
+.anchor{
+	display:inline-block;
+}
+
+.anchor > a {
+	display:inline-block;
+}
+
+.chain{
+	display:inline-block;
+}
+
+.delim{
+	padding-left:5px;
+	padding-right:5px;
+	display:inline-block;
+}
